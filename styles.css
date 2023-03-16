@@ -1,0 +1,60 @@
+ {
+    border: red solid 2px;;
+}
+.part1 {
+    display: flex;
+    background-color: #1F2937;
+    height: 500px;
+}
+#hlinks {
+    margin-left: 1350px;
+    font-style: Roboto;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    display: flex;
+    position: fixed;
+    top: 15px;
+    gap: 20px;
+}
+#text {
+    width: 350px;
+    border: red 2px solid;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 120px;
+    gap: 5px;
+    left: 300px;
+}
+#mtext {
+    font-weight: bolder;
+    color: white;
+    font-size: 48px;
+
+}
+#stext {
+    font-weight: 300;
+    color: white;
+    font-size: 16px;
+}
+.subutton {
+    background-color: lightseagreen;
+    width: 80px;
+    color: wheat;
+}
+#img {
+    height: 250px;
+    width: auto;
+    position: fixed;
+    top: 70px;
+    left: 1450px;
+}
+#logo {
+    position: fixed;
+    top: -5px;
+    left: 300px;
+    color: white;
+
+}
+
