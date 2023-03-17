@@ -1,10 +1,23 @@
- {
-    border: red solid 2px;;
-}
+
 .part1 {
-    display: flex;
     background-color: #1F2937;
     height: 500px;
+}
+.part2 {
+    background-color: white;
+    height: 450px;
+}
+.part3 {
+    background-color: gray;
+    height: 370px;
+}
+.part4 {
+    background-color: #1F2937;
+    height: 300px;
+}
+.part5 {
+    background-color: #1F2937;
+    height: 100px;
 }
 #hlinks {
     margin-left: 1350px;
@@ -13,16 +26,15 @@
     font-weight: 100;
     color: white;
     display: flex;
-    position: fixed;
+    position: absolute;
     top: 15px;
     gap: 20px;
 }
 #text {
     width: 350px;
-    border: red 2px solid;
     display: flex;
     flex-direction: column;
-    position: fixed;
+    position: absolute;
     top: 120px;
     gap: 5px;
     left: 300px;
@@ -46,15 +58,43 @@
 #img {
     height: 250px;
     width: auto;
-    position: fixed;
+    position: absolute;
     top: 70px;
     left: 1450px;
 }
 #logo {
-    position: fixed;
+    position: absolute;
     top: -5px;
     left: 300px;
     color: white;
 
 }
+#rdinfo {
+    position: absolute;
+    top: 530px;
+    left: 700px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+.imgtxt {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: absolute;
+    top: 650px;
+    left: 470px;
 
+}
+.img {
+    height: 120px;
+    width: auto;
+    border-radius: 10%;
+    
+}
+.txt {
+    height: 50px;
+    width: 150px;
+    text-align: center;
+}
