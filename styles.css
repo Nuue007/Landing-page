@@ -8,16 +8,20 @@
     height: 450px;
 }
 .part3 {
-    background-color: gray;
-    height: 370px;
+    background-color: lightgray;
+    height: 400px;
 }
 .part4 {
-    background-color: #1F2937;
+    background-color: white;
     height: 300px;
 }
 .part5 {
     background-color: #1F2937;
     height: 100px;
+    text-align: center;
+    color: white;
+    display: block;
+    justify-content: center;
 }
 #hlinks {
     margin-left: 1350px;
@@ -51,9 +55,10 @@
     font-size: 16px;
 }
 .subutton {
-    background-color: lightseagreen;
+    background-color: #3882F6;
     width: 80px;
     color: wheat;
+    border: 2px white solid;
 }
 #img {
     height: 250px;
@@ -97,4 +102,60 @@
     height: 50px;
     width: 150px;
     text-align: center;
+    color: #1F2932;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#quotes {
+    position: absolute;
+    top: 1050px;
+    left: 670px;
+}
+#quote{
+    font-size: 36px;
+    width: 500px;
+    color: #1F2937;
+    font-style: italic
+
+}
+#signature {
+    text-align: right;
+}
+#call {
+    background-color: #3882F6;
+    height: 170px;
+    width: 1500px;
+    margin-top: 50px;
+    margin: auto;
+    position: relative;
+    top: 30%;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#join1 {
+    position: relative;
+    top: 30%;
+    font-size: 25px;
+    color: white;
+}
+#join2 {
+    position: relative;
+    top: 30%;
+    font-size: 22px;
+    color: lightgray;
+}
+.subutton2 {
+    background-color: #3882F6;
+    width: 100px;
+    color: wheat;
+    height: 30px;
+    position: relative;
+    top: 40%;
+    border: 2px white solid;
+    border-radius: 10%;
+}
+#copy {
+  display: inline-block;
+  margin-top: 50px;
 }
